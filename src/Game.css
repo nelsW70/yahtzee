@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 6px;
 }
 h2 {
   font-weight: 100;
@@ -79,6 +80,8 @@ h2 {
   -webkit-animation: Gradient 15s ease infinite;
   -moz-animation: Gradient 15s ease infinite;
   animation: Gradient 15s ease infinite;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 @keyframes Gradient {
