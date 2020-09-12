@@ -47,6 +47,7 @@ class Game extends Component {
 
   toggleLocked(idx) {
     // toggle whether idx is in locked or not
+    console.log(idx);
     this.setState(st => ({
       locked: [
         ...st.locked.slice(0, idx),
